@@ -5,7 +5,7 @@ collection: projects
 permalink: /projects/FeTrIL
 thumbnail: /images/FeTrIL_thumbnail.png
 date: 03-01-2023
-venue: 'Winter Conference on Applications of Computer Vision(WACV)'
+venue: 'Winter Conference on Applications of Computer Vision (WACV)'
 authors: '<a href="https://gregoirepetit.github.io">Grégoire Petit</a>, <a href="https://scholar.google.com/citations?user=fjsa2GYAAAAJ">Adrian Popescu</a>, <a href="https://www.wayup.com/profile/Hugo-Schindler-788dbd9307/">Hugo Schindler</a>, <a href="https://davidpicard.github.io">David Picard</a> and <a href="https://scholar.google.fr/citations?user=IZczNpUAAAAJ">Bertrand Delezoide</a> ' 
 conference_short: 'WACV 2023'
 abstract: "Exemplar-free class-incremental learning is very challenging due to the negative effect of catastrophic forgetting.
@@ -17,7 +17,7 @@ bibtex: "@article{petit2023fetril, <br>
     Year = {2023}<br>
     }"
 code: "https://github.com/GregoirePetit/FeTrIL"
-pdf: "https://arxiv.org/pdf/placeholder.pdf"
+pdf: "https://arxiv.org/pdf/2211.13131"
 project_page: "https://gregoirepetit.github.io/projects/FeTrIL"
 ---
 
