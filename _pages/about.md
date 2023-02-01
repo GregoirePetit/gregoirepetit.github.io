@@ -19,6 +19,7 @@ I graduated from [IMT Atlantique](https://www.imt-atlantique.fr/en) with a Maste
 
 News
 ======
+- January 2023: I presented my work on [FeTrIL](https://gregoirepetit.github.io/projects/FeTrIL) at the [WACV2023 conference](https://wacv2023.thecvf.com/) in Waikoloa, HI, USA.
 - September 2022: I attended the [AI4Media](https://www.ai4media.eu) colloquium in Thessaloniki, Greece.
 - July 2022: I participated in the [VISUM](https://visum.inesctec.pt/) summer school in Porto, Portugal.
 - June 2022: I attended the [CVPR2022](https://cvpr2022.thecvf.com/) in New Orleans, LA, USA.
