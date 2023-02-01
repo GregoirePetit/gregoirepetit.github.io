@@ -20,6 +20,6 @@ bibtex: "@InProceedings{Petit_2023_WACV,
 }"
 code: "https://github.com/GregoirePetit/FeTrIL"
 pdf: "https://arxiv.org/pdf/2211.13131"
-project_page: "https://openaccess.thecvf.com/content/WACV2023/html/Petit_FeTrIL_Feature_Translation_for_Exemplar-Free_Class-Incremental_Learning_WACV_2023_paper.html"
+project_page: "https://gregoirepetit.github.io/projects/FeTrIL"
 ---
 
