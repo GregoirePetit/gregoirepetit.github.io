@@ -20,5 +20,6 @@ bibtex: "@InProceedings{Feillet_2023_WACV, <br>
 code: "https://github.com/EvaJF/AdvisIL"
 pdf: "https://openaccess.thecvf.com/content/WACV2023/papers/Feillet_AdvisIL_-_A_Class-Incremental_Learning_Advisor_WACV_2023_paper.pdf"
 project_page: "https://gregoirepetit.github.io/projects/AdvisIL"
+paper_url: "https://openaccess.thecvf.com/content/WACV2023/html/Feillet_AdvisIL_-_A_Class-Incremental_Learning_Advisor_WACV_2023_paper.html"
 ---
 

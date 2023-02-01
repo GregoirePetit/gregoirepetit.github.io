@@ -18,5 +18,6 @@ bibtex: "@article{petit2022plastil, <br>
 code: "https://github.com/GregoirePetit/PlaStIL"
 pdf: "https://arxiv.org/pdf/2209.06606"
 project_page: "https://gregoirepetit.github.io/projects/PlaStIL"
+paper_url: "https://arxiv.org/abs/2209.06606"
 ---
 
