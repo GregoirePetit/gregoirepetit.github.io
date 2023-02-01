@@ -34,3 +34,16 @@ The code is available on [Github](https://github.com/GregoirePetit/FeTrIL)
 You can find the poster of the paper [here](https://gregoirepetit.github.io/files/FeTrIL_poster.pdf), and the presentation video below.
 
 [![FeTrIL presentation](https://img.youtube.com/vi/sI-4a1BBoW8/0.jpg)](https://youtu.be/sI-4a1BBoW8 "Presentation of FeTrIL")
+
+If you found this work useful for your research, please cite it as follows:
+
+```BibTeX
+@InProceedings{Petit_2023_WACV,
+    author    = {Petit, Gr\'egoire and Popescu, Adrian and Schindler, Hugo and Picard, David and Delezoide, Bertrand},
+    title     = {FeTrIL: Feature Translation for Exemplar-Free Class-Incremental Learning},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {3911-3920}
+}
+```
