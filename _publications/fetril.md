@@ -33,4 +33,4 @@ The code is available on [Github](https://github.com/GregoirePetit/FeTrIL)
 
 You can find the poster of the paper [here](https://gregoirepetit.github.io/files/FeTrIL_poster.pdf), and the presentation video below.
 
-[![FeTrIL presentation](https://img.youtube.com/vi/sI-4a1BBoW8/0.jpg)](https://youtu.be/sI-4a1BBoW8 "Everything Is AWESOME")
+[![FeTrIL presentation](https://img.youtube.com/vi/sI-4a1BBoW8/0.jpg)](https://youtu.be/sI-4a1BBoW8 "Presentation of FeTrIL")
