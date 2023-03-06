@@ -23,3 +23,11 @@ News
 - September 2022: I attended the [AI4Media](https://www.ai4media.eu) colloquium in Thessaloniki, Greece.
 - July 2022: I participated in the [VISUM](https://visum.inesctec.pt/) summer school in Porto, Portugal.
 - June 2022: I attended the [CVPR2022](https://cvpr2022.thecvf.com/) in New Orleans, LA, USA.
+
+Publications
+======
+Below are listed my publications, from the latest to the oldest. You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=oKWj7yQAAAAJ). * indicates the first author.
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
