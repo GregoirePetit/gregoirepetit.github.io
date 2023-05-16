@@ -21,3 +21,29 @@ project_page: "https://gregoirepetit.github.io/projects/PlaStIL"
 paper_url: "https://arxiv.org/abs/2209.06606"
 ---
 
+Class-incremental learning (CIL) enables the adaptation of artificial agents to dynamic environments in which data occur sequentially.
+CIL is particularly useful when the training process is performed under memory and/or computational constraints. However, it is really susceptible to catastrophic forgetting, which refers to the tendency to forget past information when learning new data. Most recent CIL methods use fine-tuning with knowledge distillation from the previous model to preserve past information.
+Knowledge distillation has been progressively refined to improve CIL performance.
+An alternative approach to CIL is inspired by transfer learning. These methods use a feature extractor which is frozen after the initial CIL state. They become competitive in exemplar-free CIL, a difficult setting due to a strong effect of catastrophic forgetting.
+The main challenge is to find a good plasticity-stability balance because fine-tuning methods favor plasticity, while transfer-based methods only address stability.
+
+In this work, we tackle exemplar-free CIL (EFCIL) by combining the two types of approaches described above.
+Building on the strong performance of transfer-based methods, we introduce a plasticity component by partially fine-tuning models for recent classes.
+
+![PlaStIL comparisons](https://github.com/GregoirePetit/gregoirepetit.github.io/blob/main/images/plastil_graphs.png)
+
+The results from the figure show that PlaStIL gives a better global accuracy compared to [DeeSIL](https://arxiv.org/abs/1808.06396) and [LUCIR](https://openaccess.thecvf.com/content_CVPR_2019/html/Hou_Learning_a_Unified_Classifier_Incrementally_via_Rebalancing_CVPR_2019_paper.html), two representative methods focused on stability and plasticity, respectively.
+Accuracy is presented separately for past and new classes for existing methods to examine the plasticity-stability balance offered by each method.
+[LUCIR](https://openaccess.thecvf.com/content_CVPR_2019/html/Hou_Learning_a_Unified_Classifier_Incrementally_via_Rebalancing_CVPR_2019_paper.html) has optimal plasticity (best accuracy of new classes), while [DeeSIL](https://arxiv.org/abs/1808.06396) has optimal stability (best accuracy for past classes).
+However, the performance of both methods is strongly degraded on the complementary dimensions.
+PlaStIL is close to [LUCIR](https://openaccess.thecvf.com/content_CVPR_2019/html/Hou_Learning_a_Unified_Classifier_Incrementally_via_Rebalancing_CVPR_2019_paper.html) in terms of plasticity and to [DeeSIL](https://arxiv.org/abs/1808.06396) in terms of stability.
+Consequently, it ensures a better balance between these two properties of EFCIL.
+
+PlaStIL is inspired by transfer learning but adds a partial fine-tuning component to boost plasticity.
+It is applicable to any transfer-based method and we exemplify it with [DeepSLDA](https://github.com/tyler-hayes/Deep_SLDA) and [DeeSIL](https://arxiv.org/abs/1808.06396).
+We introduce a hybrid classification layer which combines classification weights learned with the initial model for past classes and with the fine-tuned models for recent classes.
+We evaluate the proposed approach on three datasets which contain 1000 classes each.
+The number of incremental states is varied to assess the robustness of the tested methods.
+Results show that performance gains are obtained by adding the proposed plasticity component to transfer-based methods.
+Equally interesting, important performance improvements are obtained over distillation-based methods, which are the mainstream methods deployed to tackle CIL.
+
