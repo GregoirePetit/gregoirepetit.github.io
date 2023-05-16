@@ -30,7 +30,9 @@ The main challenge is to find a good plasticity-stability balance because fine-t
 In this work, we tackle exemplar-free CIL (EFCIL) by combining the two types of approaches described above.
 Building on the strong performance of transfer-based methods, we introduce a plasticity component by partially fine-tuning models for recent classes.
 
-![PlaStIL comparisons](https://github.com/GregoirePetit/gregoirepetit.github.io/blob/main/images/plastil_graphs.png)
+# insert image images/plastil_graphs.png
+![PlaStIL](/images/plastil_graphs.png)
+
 
 The results from the figure show that PlaStIL gives a better global accuracy compared to [DeeSIL](https://arxiv.org/abs/1808.06396) and [LUCIR](https://openaccess.thecvf.com/content_CVPR_2019/html/Hou_Learning_a_Unified_Classifier_Incrementally_via_Rebalancing_CVPR_2019_paper.html), two representative methods focused on stability and plasticity, respectively.
 Accuracy is presented separately for past and new classes for existing methods to examine the plasticity-stability balance offered by each method.
