@@ -1,13 +1,14 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Grégoire Petit"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+# Open to work from January 2024, I am looking for a Machine Learning Engineer position in San Francisco Bay Area.
 
 {% include base_path %}
 
