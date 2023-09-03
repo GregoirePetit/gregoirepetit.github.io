@@ -14,7 +14,8 @@ bibtex: "@article{petit2023analysis, <br>
     author={Petit, Gr{\'e}goire and Soumm, Michael and Feillet, Eva and Popescu, Adrian and Delezoide, Bertrand and Picard, David and Hudelot, C{\'e}line}, <br>
     journal={arXiv preprint arXiv:2308.11677}, <br>
     year={2023} <br>
-}"
+}" 
+code: ""
 pdf: "https://arxiv.org/pdf/2308.11677"
 project_page: "https://gregoirepetit.github.io/projects/PreTrIL"
 paper_url: "https://arxiv.org/abs/2308.11677"
