@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-# Open to work from January 2024, I am looking for a Machine Learning Research Engineer position in San Francisco Bay Area.
+# Open to work from January 2024, I am looking for a Machine Learning Research Engineer position.
 
 {% include base_path %}
 
