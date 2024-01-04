@@ -12,6 +12,8 @@ redirect_from:
 
 I am currently looking for a good lab to conduct a Postdoc in Continual Learning/Computer Vision. Let's design that Postdoc together!
 
+Education
+======
 I am a PhD researcher in Machine Learning and Computer Vision. I conducted my research in the [CEA LIST](https://list.cea.fr) of [CEA Tech](https://www.cea-tech.fr) and in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris. My works are focusing on Exemplar-Free Class-Incremental Learning problems, which aims at learning new classes while keeping the knowledge of the previous ones. During my PhD studies, I was supervised by [Dr. Adrian Popescu](https://scholar.google.com/citations?user=fjsa2GYAAAAJ), [Dr. Bertrand Delezoide](https://scholar.google.fr/citations?user=IZczNpUAAAAJ) and [Prof. David Picard](https://davidpicard.github.io).
 My thesis was funded by [AI4Media](https://www.ai4media.eu/), a 4-year-long project funded under the European Union’s Horizon 2020 research and innovation programme.
 
