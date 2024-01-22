@@ -12,7 +12,6 @@ redirect_from:
 You can download my Postdoc Proposition [here](https://gregoirepetit.github.io/files/Postdoc_Proposition.pdf).
 
 
-# Postdoc proposal
 ## Advancing Exemplar-Free Class-Incremental Learning: Towards More Efficient, Stable, and Adaptive Models
 **Grégoire Petit, PhD**  
 [https://gregoirepetit.github.io](https://gregoirepetit.github.io)
@@ -42,9 +41,9 @@ In my PhD research, I focused on Exemplar-Free Class-Incremental Learning (EFCIL
 
 ### My Contributions
 
-- **PlaStIL (Plastic and Stable Memory-Free Class-Incremental Learning):** I developed PlaStIL, which balances plasticity and stability in CIL by freezing the feature extractor post-initial state and incorporating multiple model tops. This approach demonstrated exceptional performance across diverse configurations on large datasets.
+- **[PlaStIL (Plastic and Stable Memory-Free Class-Incremental Learning)](https://gregoirepetit.github.io/projects/PlaStIL):** I developed PlaStIL, which balances plasticity and stability in CIL by freezing the feature extractor post-initial state and incorporating multiple model tops. This approach demonstrated exceptional performance across diverse configurations on large datasets.
 - **FeTrIL (Feature Translation for Exemplar-Free Class-Incremental Learning):** I introduced FeTrIL, a novel pseudo-feature generator using centroid representations of past classes. This method is not only computationally efficient but also effective in challenging data scenarios.
-- **An Analysis of Initial Training Strategies for Exemplar-Free Class-Incremental Learning:** I established a framework for analyzing initial training strategies in EFCIL, providing insights into the impact of using the first batch of the target dataset versus pre-trained weights from an auxiliary dataset.
+- **[An Analysis of Initial Training Strategies for Exemplar-Free Class-Incremental Learning](https://gregoirepetit.github.io/projects/PreTrIL):** I established a framework for analyzing initial training strategies in EFCIL, providing insights into the impact of using the first batch of the target dataset versus pre-trained weights from an auxiliary dataset.
 - **AdvisIL (A Class-Incremental Learning Advisor):** In collaboration with my colleagues, I co-developed AdvisIL, a method that recommends the most suitable combination of learning algorithm and neural architecture for class-incremental learning based on the characteristics of the incremental process. This approach simplifies the design of class-incremental learning systems by eliminating the need for extensive preliminary experiments.
 
 ### Significance of My Work
