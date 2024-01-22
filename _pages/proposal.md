@@ -11,11 +11,6 @@ redirect_from:
 
 You can download my Postdoc Proposition [here](https://gregoirepetit.github.io/files/Postdoc_Proposition.pdf).
 
-
-## Advancing Exemplar-Free Class-Incremental Learning: Towards More Efficient, Stable, and Adaptive Models
-**Grégoire Petit, PhD**  
-[https://gregoirepetit.github.io](https://gregoirepetit.github.io)
-
 ---
 
 ## Introduction

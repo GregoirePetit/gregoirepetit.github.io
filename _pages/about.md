@@ -12,7 +12,7 @@ redirect_from:
 
 I am currently looking for a good lab to conduct a Postdoc in Continual Learning/Computer Vision. Let's design that Postdoc together!
 
-Here's a proposition of a Postdoc project I would like to conduct: [Advancing Exemplar-Free Class-Incremental Learning: Towards More Efficient, Stable, and Adaptive Models](https://gregoirepetit.github.io/files/Postdoc_Proposition.pdf).
+Here's a proposition of a Postdoc project I would like to conduct: [Advancing Exemplar-Free Class-Incremental Learning: Towards More Efficient, Stable, and Adaptive Models](https://gregoirepetit.github.io/proposal/).
 
 Education
 ======
