@@ -83,7 +83,7 @@ author:
   name             : "Grégoire Petit"
   avatar           : "profile.png"
   bio              : "PhD Continual Learning, Dual Master's Degree in Computer Science and Engineering."
-  location         : "San Francisco, CA, USA"
+  location         : "USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=oKWj7yQAAAAJ"
@@ -244,6 +244,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+
 
 # Sass/SCSS
 sass:
