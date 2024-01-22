@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Postdoc Proposition"
-permalink: /Postdoc_Proposition/
+title: "Postdoc Proposal"
+permalink: /proposal/
 author_profile: true
 redirect_from:
-  - /Postdoc_Proposition
+  - /proposal
 ---
 
 {% include base_path %}
