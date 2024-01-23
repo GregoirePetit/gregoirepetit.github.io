@@ -57,9 +57,10 @@ Building upon the foundation laid during my PhD in Exemplar-Free Class-Increment
 
 ### Primary Objectives
 
-1. **Advancing Model Efficiency:** To develop methods that further reduce the computational and memory requirements of EFCIL models without compromising their learning effectiveness.
-2. **Enhancing Model Stability:** To innovate techniques that further mitigate the issue of catastrophic forgetting, thus improving the model's ability to retain knowledge of previously learned classes over extended periods.
-3. **Improving Adaptability to New Classes:** To explore adaptive architectures and training methodologies that allow the model to seamlessly integrate new classes, particularly in diverse and dynamic environments.
+1. **Improving the Feature Generalization:** Recent trends in the CIL community involve the embedding of a pretrained network, and demonstrate high performance, as confirmed by my PhD research. Building on this, multiple strategies can be inspired, *using this time ONLY the legitimate data* (i.e. data from the first state), to design more transferable EFCIL methods. This point will be the background task for every methods developed during my postdoc.
+2. **Advancing Model Efficiency:** To develop methods that further reduce the computational and memory requirements of EFCIL models without compromising their learning effectiveness.
+3. **Enhancing Model Stability:** To innovate techniques that further mitigate the issue of catastrophic forgetting, thus improving the model's ability to retain knowledge of previously learned classes over extended periods.
+4. **Improving Adaptability to New Classes:** To explore adaptive architectures and training methodologies that allow the model to seamlessly integrate new classes, particularly in diverse and dynamic environments.
 
 ### Specific Research Directions
 
