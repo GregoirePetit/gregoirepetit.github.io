@@ -15,17 +15,17 @@ You can download my Postdoc Proposition [here](https://gregoirepetit.github.io/f
 
 ## Introduction
 
-Exemplar-Free Class-Incremental Learning (EFCIL) is the specialized subfield within the broader domain of Machine Learning and Artificial Intelligence, where a Machine Learning model needs to continuously adapt and expand its knowledge to accommodate new batches of classes, named states, while retaining the ability to recognize previously learned classes.
+Exemplar-Free Class-Incremental Learning (EFCIL) is a specialized subfield within the broader domain of Machine Learning and Artificial Intelligence. It focuses on a Machine Learning model's need to continuously adapt and expand its knowledge to accommodate new batches of classes, named states, while retaining the ability to recognize previously learned classes.
 
 The *exemplar-free* aspect of EFCIL distinguishes it from other incremental learning methods that rely on retaining specific examples or exemplars from previous classes to aid in learning new classes. In EFCIL, the model does not have access to stored exemplars, making the learning process more challenging, though easily embeddable.
 
-EFCIL is a complex and challenging domain that requires innovative solutions to enable continual learning of new classes while preserving previously acquired knowledge. Several key challenges contribute to the complexity of EFCIL, each of which requires careful consideration and specialized approaches.
+EFCIL is a complex and challenging domain that requires innovative solutions to enable Continual Learning of new classes while preserving previously acquired knowledge. Several key challenges contribute to the complexity of EFCIL, each requiring careful consideration and specialized approaches.
 
 ## Summary of My PhD Work and Its Significance
 
 ### Overview of My Research in EFCIL
 
-In my PhD research, I focused on Exemplar-Free Class-Incremental Learning (EFCIL), a challenging yet crucial subfield of machine learning. My work was driven by the need to develop models that can continually adapt and learn new classes while retaining knowledge of previous classes, without relying on storing exemplars from those classes.
+In my PhD research, I focused on Exemplar-Free Class-Incremental Learning (EFCIL), a challenging yet crucial subfield of machine learning. My work aimed to develop models that can continually adapt and learn new classes while retaining knowledge of previous classes, without relying on storing exemplars from those classes.
 
 ### Key Challenges Addressed
 
@@ -49,25 +49,29 @@ My PhD research significantly advances the field of EFCIL by:
 - Introducing PlaStIL and FeTrIL, 2 state-of-the-art methods, which address memory and computational efficiency challenges in EFCIL.
 - Providing a new statistical analysis framework that enhances the understanding and optimization of initial training strategies for incremental learning models.
 
-These contributions are pivotal in developing more efficient, stable, and adaptive machine learning models, essential for applications requiring continual learning capabilities.
+These contributions are pivotal in developing more efficient, stable, and adaptive machine learning models, essential for applications requiring Continual Learning capabilities.
 
 ## Objectives of My PostDoc Research
 
-Building upon the foundation laid during my PhD in Exemplar-Free Class-Incremental Learning (EFCIL), my PostDoc research aims to further advance this field by addressing several critical challenges and exploring new frontiers. The overarching goal is to enhance the efficiency, adaptability, and stability of EFCIL models, making them more suitable for real-world applications.
+Building upon the foundation laid during my PhD in Exemplar-Free Class-Incremental Learning (EFCIL), my PostDoc research aims to advance this field by addressing several critical challenges and exploring new frontiers. The overarching goal is to enhance the efficiency, adaptability, and stability of EFCIL models, making them more suitable for real-world applications.
 
 ### Primary Objectives
 
-1. **Improving the Feature Generalization:** Recent trends in the CIL community involve the embedding of a pretrained network, and demonstrate high performance, as confirmed by my PhD research. Building on this, multiple strategies can be inspired, *using this time ONLY the legitimate data* (i.e. data from the first state), to design more transferable EFCIL methods. This point will be the background task for every methods developed during my postdoc.
+1. **Improving the Feature Generalization:** Recent trends in the CIL community involve embedding a pretrained network, demonstrating high performance. Building on this, my goal is to use only legitimate data (i.e., data from the first state) to design more transferable EFCIL methods.
 2. **Advancing Model Efficiency:** To develop methods that further reduce the computational and memory requirements of EFCIL models without compromising their learning effectiveness.
 3. **Enhancing Model Stability:** To innovate techniques that further mitigate the issue of catastrophic forgetting, thus improving the model's ability to retain knowledge of previously learned classes over extended periods.
 4. **Improving Adaptability to New Classes:** To explore adaptive architectures and training methodologies that allow the model to seamlessly integrate new classes, particularly in diverse and dynamic environments.
 
 ### Specific Research Directions
 
-- **Novel Continual Learning Strategies:** Exploring new strategies in continual learning that enable the model to learn from a continuous stream of data without the need for retaining exemplars.
-- **Efficient Transfer Learning Approaches:** Assessing how transfer learning can be more effectively leveraged in EFCIL, particularly focusing on the pretraining aspect to provide a robust foundation for subsequent incremental learning.
+- **Novel Continual Learning Strategies:** Exploring new strategies in Continual Learning that enable the model to learn from a continuous stream of data without the need for retaining exemplars.
+    - Continue a currently ongoing survey.
+- **Efficient Transfer Learning Approaches:** Assessing how transfer learning can be more effectively leveraged in EFCIL, focusing on the pretraining aspect to provide a robust foundation for subsequent incremental learning.
+    - Design methods inspired by Transfer Learning field.
 - **Application in Real-World Scenarios:** Applying EFCIL methodologies to practical applications, such as robotics or natural language processing, to validate and refine the models under new conditions.
-- **Community Contribution and Benchmarking:** Aiming to contribute to the EFCIL community by developing open-source tools, libraries, and benchmark datasets, which are crucial for standardizing and accelerating research in this area.
+    - Tackle the potential of GenAI in a constrained CIL environment.
+- **Community Contribution and Benchmarking:** Aiming to contribute to the EFCIL community by developing open-source tools, libraries, and benchmark datasets, crucial for standardizing and accelerating research in this area.
+    - Contribute to open-source projects and dataloaders to ensure the fairness of the research.
 
 ### Anticipated Challenges and Solutions
 
@@ -76,7 +80,7 @@ Building upon the foundation laid during my PhD in Exemplar-Free Class-Increment
 
 ## Research Plan for My PostDoc Research
 
-The research plan for my PostDoc is designed to build upon my PhD work in EFCIL, aiming to achieve the objectives laid out previously. This plan outlines a series of research activities, each with defined milestones, spread over the course of the PostDoc period.
+The research plan for my PostDoc is designed to build upon my PhD work in EFCIL, aiming to achieve the objectives laid out previously. This plan outlines a series of research activities, each with defined milestones, spread throughout the PostDoc period.
 
 ### Timeline and Milestones
 
@@ -87,13 +91,13 @@ The research plan for my PostDoc is designed to build upon my PhD work in EFCIL,
 - Conduct an extensive literature review to identify current trends and gaps in EFCIL.
 - Set up computational infrastructure and finalize data sources.
 - Begin networking with potential collaborators.
-- **Milestone:** Completion of literature review and setup of research environment.
+- **Milestone:** Completion of literature review and setup of the research environment.
 
 #### Months 4-6: Advanced Continual Learning Strategies
 
-- Develop novel strategies for continual learning without relying on exemplars.
+- Develop novel strategies for Continual Learning without relying on exemplars.
 - Conduct initial experiments to assess efficacy and efficiency.
-- **Milestone:** Development and preliminary validation of new continual learning methods.
+- **Milestone:** Development and preliminary validation of new Continual Learning methods.
 
 #### Months 7-9: Enhancing Transfer Learning Techniques
 
@@ -124,9 +128,10 @@ The research plan for my PostDoc is designed to build upon my PhD work in EFCIL,
 
 Throughout the research, I anticipate facing challenges related to model scalability, computational efficiency, and real-world applicability. To address these, I plan to:
 - Regularly review and adapt research strategies based on ongoing results and feedback.
-- Engage in continuous learning and collaboration with other researchers to overcome technical challenges.
+- Engage in Continual Learning and collaboration with other researchers to overcome technical challenges.
 - Consolidate the interactions I built in the Continual Learning community  
-[ContinualAI](https://www.continualai.org/)
+  [ContinualAI](https://www.continualai.org/)
+
 
 ## Expected Outcomes
 
