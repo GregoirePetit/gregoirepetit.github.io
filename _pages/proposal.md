@@ -136,7 +136,7 @@ Throughout the research, I anticipate facing challenges related to model scalabi
 ## Expected Outcomes
 
 - **Publications in Top-Tier ML/AI Conferences:**
-    - Contribution to conferences such as CVPR, ECCV, ICCV, NeurIPS, and SIGGRAPH.
+    - Contribution to conferences such as CVPR, ECCV, ICCV, NeurIPS, etc.
     - Collaborations with lab colleagues, resulting in significant publications in the field.
 - **Community Contributions:**
     - Development of open-source tools and libraries tailored to EFCIL.
