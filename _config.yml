@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Open to work!"
+title                    : "🎓PhD defended!🎓"
 title_separator          : "-"
 name                     : &name "Grégoire Petit"
 description              : &description "As a student with a passion for theoretical science, I chose to pursue demanding studies which combine Computer science, Mathematics and Signal Processing, before specializing in Machine Learning: Class-Incremental Learning without Memory."
