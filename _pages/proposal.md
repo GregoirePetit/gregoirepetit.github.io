@@ -9,9 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my Postdoc Proposition [here](https://gregoirepetit.github.io/files/Postdoc_Proposition.pdf).
+You can download a Postdoc Proposition [here](https://gregoirepetit.github.io/files/Postdoc_Proposition.pdf).
 
 ---
+
+Note: I am very open to conduct my research in neuro-inspired Continual Learning.
+Here is a proposition of a Postdoc project about Exemplar-Free Class-Incremental Learning.
 
 ## Introduction
 
