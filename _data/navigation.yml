@@ -18,8 +18,8 @@ main:
   - title: "CV"
     url: /cv/
   
-  - title: "Postdoctoral Proposal"
-    url: /proposal/
+#  - title: "Postdoctoral Proposal"
+#    url: /proposal/
     
 #  - title: "Guide"
 #    url: /markdown/
