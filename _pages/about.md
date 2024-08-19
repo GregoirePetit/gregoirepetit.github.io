@@ -10,6 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
+My desire to conduct research stems from a deep fascination with the transformative power of Machine Learning and its potential to solve complex, real-world problems. I am particularly drawn to conducting research in the field of generative AI, where the integration of diverse data modalities offers an exciting frontier for innovation.
+
 Education
 ======
 I am a PhD researcher in Machine Learning and Computer Vision. I conducted my research in the [CEA LIST](https://list.cea.fr) of [CEA Tech](https://www.cea-tech.fr) and in the [IMAGINE team](http://imagine.enpc.fr/) of [Ecole des Ponts Paristech](http://www.enpc.fr/) in Paris. My works are focusing on Exemplar-Free Class-Incremental Learning problems, which aims at learning new classes while keeping the knowledge of the previous ones. During my PhD studies, I was supervised by [Dr. Adrian Popescu](https://scholar.google.com/citations?user=fjsa2GYAAAAJ), [Dr. Bertrand Delezoide](https://scholar.google.fr/citations?user=IZczNpUAAAAJ) and [Prof. David Picard](https://davidpicard.github.io).
