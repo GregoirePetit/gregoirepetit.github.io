@@ -1,27 +1,35 @@
 {% include base_path %}
 
 <div class="work-list__item">
+    <hr>
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-
-        
-        <h2 class="archive__item-title" itemprop="headline">
-            {% if post.link %}
-            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-            {% else %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-            {% endif %}
-        </h2>
-        
-        <!-- Read time if available -->
-        {% if post.read_time %}
-        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <!-- Conditional rendering for grid -->
+      {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="">
+      </div>
+      {% endif %}
+  
+      <h2 class="archive__item-title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
         {% endif %}
-        
-
-        {% elsif post.collection == 'publications' %}
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8">
-              <hr>
+      </h2>
+  
+      <!-- Read time if available -->
+      {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
+  
+      <!-- Different collections handling -->
+      {% if post.collection == 'teaching' %}
+      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      
+      {% elsif post.collection == 'publications' %}
+      <div class="row">
+          <div class="col-xs-12 col-sm-8 col-md-8">
               <h2>{{ post.title }}</h2>
               {% if post.award %}
               <h5><i>({{ post.award }})</i></h5>
