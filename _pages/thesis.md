@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my resume [here](https://gregoirepetit.github.io/files/manuscript.pdf). 
+You can download my PhD manuscript [here](https://gregoirepetit.github.io/files/manuscript.pdf). 
  <br>
 
  <object data="{{ site.url }}/files/manuscript.pdf" width="1000" height="1000" type='application/pdf'/>
