@@ -18,10 +18,10 @@
         {% endif %}
         
 
-        <hr>
-      {% elsif post.collection == 'publications' %}
-      <div class="row">
-          <div class="col-xs-12 col-sm-8 col-md-8">
+        {% elsif post.collection == 'publications' %}
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-8">
+              <hr>
               <h2>{{ post.title }}</h2>
               {% if post.award %}
               <h5><i>({{ post.award }})</i></h5>
