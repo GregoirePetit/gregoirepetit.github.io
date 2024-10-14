@@ -1,6 +1,7 @@
 {% include base_path %}
 
 <div class="work-list__item">
+    <hr>
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       <!-- Conditional rendering for grid -->
       {% if include.type == "grid" and teaser %}
@@ -86,5 +87,6 @@
       <p>Download <a href="{{ post.paperurl }}"><u>here</u></a></p>
       {% endif %}
     </article>
+    <hr>
   </div>
   
