@@ -1,0 +1,109 @@
+{% include base_path %}
+
+<div class="work-list__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <!-- Conditional rendering for grid -->
+      {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="">
+      </div>
+      {% endif %}
+  
+      <h2 class="archive__item-title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h2>
+  
+      <!-- Read time if available -->
+      {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
+  
+      <!-- Different collections handling -->
+      {% if post.collection == 'teaching' %}
+      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      
+      {% elsif post.collection == 'publications' %}
+      <div class="row">
+        <div class="col-xs-10 col-sm-4 col-md-4">
+          <a class="thumbnail">
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="max-height:15em; display: block; margin-left: auto; margin-right: auto;">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-8">
+          <h2>{{ post.title }}</h2>
+          {% if post.award %}
+          <h5><i>({{ post.award }})</i></h5>
+          {% endif %}
+          <p>{{ post.authors }}</p>
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{ post.short }}_abstract">Abstract</button>
+          <div id="{{ post.short }}_abstract" class="collapse">
+            <p class="bg-info">{{ post.abstract }}</p>
+          </div>
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{ post.short }}_bibtex">Bibtex</button>
+          <div id="{{ post.short }}_bibtex" class="collapse">
+            <pre><tt>{{ post.bibtex }}</tt></pre>
+          </div>
+          {% if post.code %}
+          <a href="{{ post.code }}"><button type="button" class="btn btn-primary btn-xs">Code</button></a>
+          {% endif %}
+          {% if post.pdf %}
+          <a href="{{ post.pdf }}"><button type="button" class="btn btn-primary btn-xs">PDF</button></a>
+          {% endif %}
+          {% if post.project_page %}
+          <a href="{{ post.project_page }}"><button type="button" class="btn btn-primary btn-xs">Project Page</button></a>
+          {% endif %}
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        </div>
+      </div>
+  
+      {% elsif post.collection == 'projects' %}
+      <div class="row">
+        <div class="col-xs-10 col-md-auto">
+          <a class="thumbnail">
+            <img src="{{ post.thumbnail }}" alt="">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h3>{{ post.title }}</h3>
+          <h4>{{ post.authors }}</h4>
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{ post.short }}_abstract">Abstract</button>
+          <div id="{{ post.short }}_abstract" class="collapse">
+            <p class="bg-success">{{ post.abstract }}</p>
+          </div>
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{ post.short }}_bibtex">Bibtex</button>
+          <div id="{{ post.short }}_bibtex" class="collapse">
+            <pre><tt>{{ post.bibtex }}</tt></pre>
+          </div>
+          {% if post.code %}
+          <a href="{{ post.code }}"><button type="button" class="btn btn-primary btn-xs">Code</button></a>
+          {% endif %}
+          {% if post.pdf %}
+          <a href="{{ post.pdf }}"><button type="button" class="btn btn-primary btn-xs">PDF</button></a>
+          {% endif %}
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        </div>
+      </div>
+  
+      <!-- Publication or citation if available -->
+      {% elsif post.date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+      {% endif %}
+  
+      <!-- Optional excerpt -->
+      {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% endif %}
+  
+      <!-- Citation or download link -->
+      {% if post.citation %}
+      <p>Recommended citation: {{ post.citation }} </p>
+      {% elsif post.paperurl %}
+      <p>Download <a href="{{ post.paperurl }}"><u>here</u></a></p>
+      {% endif %}
+    </article>
+  </div>
+  

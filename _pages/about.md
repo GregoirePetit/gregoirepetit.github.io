@@ -34,8 +34,8 @@ News
 
 Publications
 ======
-Below are listed my publications, from the latest to the oldest. You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=oKWj7yQAAAAJ).
+Below are listed my publications, from the latest to the oldest. You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=oKWj7yQAAAAJ). Without the abstract
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% include archive-single-short.html %}
 {% endfor %}
