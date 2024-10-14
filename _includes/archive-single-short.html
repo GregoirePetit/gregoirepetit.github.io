@@ -39,14 +39,6 @@
           <h5><i>({{ post.award }})</i></h5>
           {% endif %}
           <p>{{ post.authors }}</p>
-          <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{ post.short }}_abstract">Abstract</button>
-          <div id="{{ post.short }}_abstract" class="collapse">
-            <p class="bg-info">{{ post.abstract }}</p>
-          </div>
-          <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{ post.short }}_bibtex">Bibtex</button>
-          <div id="{{ post.short }}_bibtex" class="collapse">
-            <pre><tt>{{ post.bibtex }}</tt></pre>
-          </div>
           {% if post.code %}
           <a href="{{ post.code }}"><button type="button" class="btn btn-primary btn-xs">Code</button></a>
           {% endif %}
@@ -70,14 +62,6 @@
         <div class="col-md-8">
           <h3>{{ post.title }}</h3>
           <h4>{{ post.authors }}</h4>
-          <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{ post.short }}_abstract">Abstract</button>
-          <div id="{{ post.short }}_abstract" class="collapse">
-            <p class="bg-success">{{ post.abstract }}</p>
-          </div>
-          <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#{{ post.short }}_bibtex">Bibtex</button>
-          <div id="{{ post.short }}_bibtex" class="collapse">
-            <pre><tt>{{ post.bibtex }}</tt></pre>
-          </div>
           {% if post.code %}
           <a href="{{ post.code }}"><button type="button" class="btn btn-primary btn-xs">Code</button></a>
           {% endif %}
