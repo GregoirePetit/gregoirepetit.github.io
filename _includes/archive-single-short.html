@@ -27,25 +27,32 @@
       {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
       
-
+      {% elsif post.collection == 'publications' %}
       <div class="row">
-        <div class="col-xs-10 col-md-auto">
-          <a class="thumbnail">
-            <img src="{{ post.thumbnail }}" alt="">
-          </a>
-        </div>
-        <div class="col-md-8">
-          <h3>{{ post.title }}</h3>
-          <h4>{{ post.authors }}</h4>
-          {% if post.code %}
-          <a href="{{ post.code }}"><button type="button" class="btn btn-primary btn-xs">Code</button></a>
-          {% endif %}
-          {% if post.pdf %}
-          <a href="{{ post.pdf }}"><button type="button" class="btn btn-primary btn-xs">PDF</button></a>
-          {% endif %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-        </div>
+          <div class="col-xs-12 col-sm-8 col-md-8">
+              <h2>{{ post.title }}</h2>
+              {% if post.award %}
+              <h5><i>({{ post.award }})</i></h5>
+              {% endif %}
+              <p>{{ post.authors }}</p>
+              {% if post.code %}
+              <a href="{{ post.code }}"><button type="button" class="btn btn-primary btn-xs">Code</button></a>
+              {% endif %}
+              {% if post.pdf %}
+              <a href="{{ post.pdf }}"><button type="button" class="btn btn-primary btn-xs">PDF</button></a>
+              {% endif %}
+              {% if post.project_page %}
+              <a href="{{ post.project_page }}"><button type="button" class="btn btn-primary btn-xs">Project Page</button></a>
+              {% endif %}
+              <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+            </div>
+            <div class="col-xs-10 col-sm-4 col-md-4">
+                <a class="thumbnail">
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="max-height:15em; display: block; margin-left: auto; margin-right: auto;">
+                </a>
+            </div>
       </div>
+
   
       <!-- Publication or citation if available -->
       {% elsif post.date %}
