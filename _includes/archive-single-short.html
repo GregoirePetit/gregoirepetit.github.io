@@ -52,6 +52,42 @@
             </div>
       </div>
   
+      {% elsif post.collection == 'projects' %}
+      <div class="row">
+        <div class="col-xs-10 col-md-auto">
+          <a class="thumbnail">
+            <img src="{{ post.thumbnail }}" alt="">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h3>{{ post.title }}</h3>
+          <h4>{{ post.authors }}</h4>
+          {% if post.code %}
+          <a href="{{ post.code }}"><button type="button" class="btn btn-primary btn-xs">Code</button></a>
+          {% endif %}
+          {% if post.pdf %}
+          <a href="{{ post.pdf }}"><button type="button" class="btn btn-primary btn-xs">PDF</button></a>
+          {% endif %}
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        </div>
+      </div>
+  
+      <!-- Publication or citation if available -->
+      {% elsif post.date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+      {% endif %}
+  
+      <!-- Optional excerpt -->
+      {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% endif %}
+  
+      <!-- Citation or download link -->
+      {% if post.citation %}
+      <p>Recommended citation: {{ post.citation }} </p>
+      {% elsif post.paperurl %}
+      <p>Download <a href="{{ post.paperurl }}"><u>here</u></a></p>
+      {% endif %}
     </article>
   </div>
   
