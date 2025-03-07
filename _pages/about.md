@@ -19,11 +19,15 @@ My thesis was funded by [AI4Media](https://www.ai4media.eu/), a 4-year-long proj
 
 I graduated from [IMT Atlantique](https://www.imt-atlantique.fr/en) with a Master of Engineering in Information Technology (Telecom Bretagne) and from the [Georgia Institute of Technology](https://www.gatech.edu/) with a [Master of Science in Computer Science](https://catalog.gatech.edu/programs/computer-science-ms/), specializing in Machine Learning.
 
-Currently, I am conducting a postdoc at the [Medical University of Innsbruck](https://www.i-med.ac.at/) in Austria, in the Digital Cardiology group.
+Then, I conducted a postdoc at the [Medical University of Innsbruck](https://www.i-med.ac.at/) in Austria, in the Digital Cardiology group, where I conducted research on the application of Machine Learning to medical imaging. I successfully published my work on [EchoDFKD](https://gregoirepetit.github.io/projects/EchoDFKD) at the [WACV2025 conference](https://wacv2025.thecvf.com/) in Tucson, AZ, USA.
+
+Currently, I am conducting a postdoc at the [LIP6](https://www.lip6.fr/) in Paris, France, in the [LFI team](https://lfi.lip6.fr/) where I am working on the application of Machine Learning and Computer Vision to the analysis of nanoparticle images, in collaboration with the [PHENIX](https://www.phenix.cnrs.fr/) laboratory.
 
 News
 ======
-- 2024: I am currently conducting a postdoc at the [Medical University of Innsbruck](https://www.i-med.ac.at/) in Austria, in the Digital Cardiology group.
+- 2025: I am conducting a postdoc at the [LIP6](https://www.lip6.fr/) in Paris, France, in the [LFI team](https://lfi.lip6.fr/).
+- March 2025: I presented my work on [EchoDFKD](https://gregoirepetit.github.io/projects/EchoDFKD) at the [WACV2025 conference](https://wacv2025.thecvf.com/) in Tucson, AZ, USA.
+- 2024: I am conducting a postdoc at the [Medical University of Innsbruck](https://www.i-med.ac.at/) in Austria, in the Digital Cardiology group.
 - January 2024: I presented my work on [PreTrIL](https://gregoirepetit.github.io/projects/PreTrIL) at the [WACV2024 conference](https://wacv2024.thecvf.com/) in Waikoloa, HI, USA.
 - I defended my [PhD](https://gregoirepetit.github.io/thesis/).  on the 5th of December 2023!
 - August 2023: I presented my work on [PlaStIL](https://gregoirepetit.github.io/projects/PlaStIL) at the [CoLLAs2023](https://lifelong-ml.cc/) conference in Montréal, Canada.
