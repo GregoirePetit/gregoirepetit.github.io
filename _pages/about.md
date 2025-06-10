@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-My desire to conduct research stems from a deep fascination with the transformative power of Machine Learning and its potential to solve complex, real-world problems. I am particularly drawn to conducting research in the field of generative AI, where the integration of diverse data modalities offers an exciting frontier for innovation.
+My desire to conduct research stems from a deep fascination with the transformative power of Machine Learning and its potential to solve complex, real-world problems. I am particularly drawn to conducting research in the field of medical AI, where the integration of diverse data modalities offers an exciting frontier for innovation.
 
 Education
 ======
@@ -27,6 +27,7 @@ News
 ======
 - 2025: I am conducting a postdoc at the [LIP6](https://www.lip6.fr/) in Paris, France, in the [LFI team](https://lfi.lip6.fr/).
 - March 2025: I presented my work on [EchoDFKD](https://gregoirepetit.github.io/projects/EchoDFKD) at the [WACV2025 conference](https://wacv2025.thecvf.com/) in Tucson, AZ, USA.
+![EchoDFKD](https://gregoirepetit.github.io/images/EchoDFKD_thumbnail.gif)
 - 2024: I am conducting a postdoc at the [Medical University of Innsbruck](https://www.i-med.ac.at/) in Austria, in the Digital Cardiology group.
 - January 2024: I presented my work on [PreTrIL](https://gregoirepetit.github.io/projects/PreTrIL) at the [WACV2024 conference](https://wacv2024.thecvf.com/) in Waikoloa, HI, USA.
 - I defended my [PhD](https://gregoirepetit.github.io/thesis/).  on the 5th of December 2023!
