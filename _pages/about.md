@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-My desire to conduct research stems from a deep fascination with the transformative power of Machine Learning and its potential to solve complex, real-world problems. I am particularly drawn to conducting research in the field of medical AI, where the integration of diverse data modalities offers an exciting frontier for innovation.
+My desire to conduct research stems from a deep fascination with the transformative power of Machine Learning and its potential to address complex, real-world challenges. I am particularly drawn to advancing research where the integration of diverse data modalities can drive innovation toward more sustainable, resource-efficient, and societally impactful solutions.
 
 Education
 ======
